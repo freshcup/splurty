@@ -45,13 +45,13 @@
             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
               <span aria-hidden="true">×</span>
             </button>
-             <h4 class="modal-title" id="myModalLabel">Contribute Your Quote</h4>
+             <h4 class="modal-title" id="myModalLabel">Toronto Raptors</h4>
           </div>
           <div class="modal-body">
-              <h1>Enter Your Quote Details</h1>
+              <h1>Add a quote</h1>
                  <%= simple_form_for Quote.new do |f| %>
                   <div class="modal-body">
-                  <%= f.input :saying, label: "Favourite Raptors quote", placeholder: "Salami and cheese" %>
+                  <%= f.input :saying, label: "Favourite Raptors quote", placeholder: "Salami and Cheese" %>
                   <br />
                    <%= f.input :author, label: "Who said it?", placeholder: "Chuck Swirsky" %>
               </div>
